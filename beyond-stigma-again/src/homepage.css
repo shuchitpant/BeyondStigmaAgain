@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url("./Attachments/BSBG.png");
+    background-repeat: repeat-y;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 13vw;
+    padding-right: 5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: grey;
+    filter: grayscale(1000%) opacity(.6) saturate(.70);
+}
+.topbar-elements{
+    font-weight: 200;
+    font-size: 2vw;
+    padding-right: 16vw;
+
+}
+.topbar-elements-individuals{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
